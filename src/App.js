@@ -42,7 +42,7 @@ function App() {
             type='button'
           > 
             <img src={linkedin} alt="Linkedin"/>
-            Whatsapp
+            Linkedin
           </Button > 
 
           <Button 
@@ -50,7 +50,7 @@ function App() {
             type='button'
           > 
             <img src={instagram} alt="Instagram"/>
-            Whatsapp
+            Instagram
           </Button > 
 
           <Button 
