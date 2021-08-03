@@ -1,0 +1,52 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    //background: red;
+    >main{
+        width: 50%;
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+        .perfil-img{
+            width: 150px;
+            height: 150px;
+            border: solid 4px #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            > img{
+                width: 95%;
+                height: 95%;
+                border-radius: 50%;
+            }
+        }
+        h1{
+            font-size: 20px;
+            color: rgb(241, 238, 238);
+            margin-top: 10px;
+            margin-bottom: 2px;
+            white-space: nowrap;
+        }
+        h2{
+            font-size: 15px;
+            color: rgb(170, 169, 169);
+            white-space: nowrap
+        }    
+
+
+      }
+
+      section{
+        width: 100%;
+        margin-top: 30px;
+    }
+    }
+}
