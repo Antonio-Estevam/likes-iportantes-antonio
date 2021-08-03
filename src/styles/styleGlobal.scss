@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -14,5 +15,13 @@ body {
 }
 
 body, input, button, textarea {
-    font: 400 16px 'Roboto', sans-serif;
+    font: 400 16px 'Inter', sans-serif;
+}
+
+@media (max-width:500px){
+    body {
+         padding: 0;
+         padding-top: 10vh;
+         padding-bottom: 10vh;
+    }
 }
