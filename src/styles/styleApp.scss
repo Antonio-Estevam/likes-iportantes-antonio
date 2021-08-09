@@ -12,6 +12,8 @@
             text-align: center;
 
         .perfil-img{
+            padding: 2px;
+            background: linear-gradient( to left bottom, #a84ad3, #623bcf); 
             width: 150px;
             height: 150px;
             border: solid 4px #623bcf;
@@ -25,6 +27,7 @@
                 width: 95%;
                 height: 95%;
                 border-radius: 50%;
+                border: solid 3px #171719;
             }
         }
         h1{
